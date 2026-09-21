@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — AMN Construction Ltd</title>
+<meta name="description" content="Get in touch with AMN Construction Ltd for a quote on your building project.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Expanded:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <img src="images/amn_logo.png" alt="AMN Construction Ltd logo">
+      <span class="name">AMN Construction</span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="btn btn-primary active">Get a Quote</a>
+    </nav>
+    <button class="navToggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="pageHero">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--grey-300);">Get In Touch</p>
+    <h1>Contact Us</h1>
+    <p>Tell us about your project and we'll get back to you with honest advice and a straightforward quote.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="contactGrid">
+      <div class="contactDetails">
+        <h3>Phone</h3>
+        <p><a href="tel:07736232016">07736 232016</a></p>
+        <h3>Email</h3>
+        <p><a href="mailto:amnconstruction4@gmail.com">amnconstruction4@gmail.com</a></p>
+        <h3>Hours</h3>
+        <p>Monday – Saturday, 8am – 6pm</p>
+      </div>
+      <form class="contactForm" action="https://formspree.io/f/mzebkpzl" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div>
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Enquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <img src="images/amn_logo.png" alt="AMN Construction Ltd logo">
+    </a>
+    <div class="contactLinks">
+      <a href="tel:07736232016">07736 232016</a>
+      <a href="mailto:amnconstruction4@gmail.com">amnconstruction4@gmail.com</a>
+    </div>
+    <div class="copyright">© <span id="year"></span> AMN Construction Ltd. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
